@@ -13,15 +13,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".SimpleVideoViewActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize">
-        </activity>
-        <activity android:name=".VideoActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize"/>
-        <activity android:name=".MainActivity"
+        <activity android:name=".Main3Activity"></activity>
+        <activity android:name=".Main2Activity" />
+        <activity
+            android:name=".SimpleVideoViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".VideoActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".MainActivity"
             android:configChanges="keyboardHidden|orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
